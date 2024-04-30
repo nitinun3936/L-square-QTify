@@ -1,8 +1,9 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Card from "./components/Card";
-import Song from "./components/Song";
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';       
+import Card from './components/Card/Card';       
+import Song from './components/Song/Song';       
 
 function App() {
   return (
